@@ -23,12 +23,13 @@ cout<<"digite nombre\n";
     cin>> concursante.sexo;
     cin.ignore(256,'\n');
 
+    cout<<"\ningrese el club\n";
+    cin.getline (concursante.club,10);
+    cin.ignore (256,'\n');
+
     cout<<"ingrese edad\n";
     cin>> concursante.edad;
 
-    cout<<"ingrese el club\n";
-    cin.getline (concursante.club,10);
-    cin.ignore (256,'\n');
 
     system ("cls");
 
